@@ -155,11 +155,7 @@ class Spillbrett extends JPanel{
         // Legger rutenettet til i panelet vi faar i konstruktoeren 
         add(rutenett);
     }
-
-
     public InfoPanel hentInfoPanel() {
         return infoPanel;
     }
-
-
 }

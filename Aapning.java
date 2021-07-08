@@ -52,6 +52,7 @@ class Aapning extends HvitRute {
                 }
             }
         }
+        // Det kan vaere flere aapninger ved siden av hverandre. 
         if (!vaertNord && this.nord != null) this.nord.gaa(this, denneRutensVei);
         if (!vaertSyd && this.syd != null) this.syd.gaa(this, denneRutensVei);
         if (!vaertVest && this.vest != null) this.vest.gaa(this, denneRutensVei);

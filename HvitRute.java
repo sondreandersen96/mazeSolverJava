@@ -18,13 +18,8 @@ class HvitRute extends Rute{
         ArrayList<Tuppel> denneRutensVei = new ArrayList<Tuppel>(veiHit);
         denneRutensVei.add(new Tuppel(this.kolonne, this.rad));
 
-        /*
+    
         // Hvis vi er i en hvit rute skal vi bare spoerre videre, men ikke tilbake. 
-        if (this.nord != null && !this.nord.equals(forrige)) this.nord.gaa(this, denneRutensVei);
-        if (this.syd != null && !this.syd.equals(forrige) && this.syd != null) this.syd.gaa(this, denneRutensVei);
-        if (this.vest != null && !this.vest.equals(forrige) && this.vest != null) this.vest.gaa(this, denneRutensVei);
-        if (this.oest != null && !this.oest.equals(forrige)&& this.oest != null) this.oest.gaa(this, denneRutensVei);
-        */
 
         // Dette vil loese sykliske labyrinter ogsaa
         // Sjekker om vi tidligere har vaert i nord, syd, vest eller oest ruten (da vil vi unngaa StackOverFlowError ved sykliske labyrinter) 
