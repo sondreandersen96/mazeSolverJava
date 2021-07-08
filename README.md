@@ -17,3 +17,13 @@ The maze file must be of a very specific format.
 This program was created as an mandatory assignment in the course IN1010 at The University of Oslo. It was written in the spring of 2021, in the second semester of my Computer Science Degree.
 
 Feel free to download the code and test it your self. You could also try to create your own maze and see if the program can solve it!  
+
+## Start program 
+To start this program you must first compile the Java code:
+
+```javac Main.java```
+
+When that is done, start the program:
+
+```java Main```
+
